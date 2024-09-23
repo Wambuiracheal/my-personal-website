@@ -4,7 +4,7 @@ body {
     color: antiquewhite;
   }
 
-#main-header {
+#welcome {
     background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
