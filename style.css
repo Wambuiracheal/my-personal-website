@@ -12,8 +12,6 @@ html body {
     padding: 0;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
-   
 }
 
 #welcome::before {
@@ -26,7 +24,6 @@ html body {
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
     width: 100%;
     height: 100%;
     filter: blur(4px);
@@ -34,28 +31,27 @@ html body {
 }
 
 .container {
-width: 100%;
-max-width: 100%;
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: space-between;
-
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
 }
 
 #nav-bar .nav-list{
     list-style: none;
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 20px;    
 }
 
+/*decorates the links*/
 .nav-link{
     text-decoration: none;
+    color: aliceblue;
 }
 
 .nav-i{
-    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
 }
 
 .heading {
@@ -63,7 +59,6 @@ justify-content: space-between;
     font-size: 50px;
     font-weight: bolder;
     color: orange;
-    padding-bottom: ;
 }
 
 .motto {
@@ -79,7 +74,7 @@ img {
     padding-top: 0px;
     padding-bottom: 30px;
     width: 20vw;
-    height: 70vh;
+    height: 60vh;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -91,7 +86,7 @@ img {
 /*My Projects*/
 #projects-sec {
     width: 100vw;
-    height: 80vh;
+    height: 45vh;
     background: rgba(0, 0, 0, 0.911);
     color: aliceblue;
     margin: 0;
@@ -99,7 +94,7 @@ img {
     float: left;
 }
 
- h2 {
+h2 {
     font-size: 30px;
     text-align: center;
     color: rgb(255, 165, 0);
@@ -112,8 +107,7 @@ img {
 .column {
     float: left;
     width: 25%;
-    padding: 0 10px;
-    display: table;
+    padding: 0 5px;
   }
   
   /* Remove extra left and right margins, due to padding in columns */
@@ -140,7 +134,7 @@ img {
 /*about*/
 #about {
     width: 100vw;
-    height: 70vh;
+    height: 50vh;
     background: rgba(0, 0, 0, 0.911);
     color: aliceblue;
     margin: 0;
@@ -151,12 +145,17 @@ img {
 /*contacts*/
 #contacts {
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     background: rgba(0, 0, 0, 0.911);
     color: aliceblue;
     margin: 0;
     padding: 0;
     float: left;
+}
+
+#contacts p{
+    text-align: center;
+    color: orange;
 }
 
 
