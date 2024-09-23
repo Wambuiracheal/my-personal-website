@@ -75,28 +75,36 @@
 
     <!--Contacts Section-->
     <section id="contacts">
-        <h2>Contacts Me:</h2>
-        <div class="container">
-            <div>
-              <p>To reach me, feel free to get in touch via: </p>
-            </div>
+        
+        <div class="title">
+            <h2>Contact Me:</h2>
+            <p>To reach out, contact me here!!!</p>
+        </div>
+
+        <div class="column-contacts">
             <div class="row">
-                <div class="column">
-                    <ul>
-                        <li><i class="fa-brands fa-facebook"> facebook</i></li>
-
-                        <li><i class="fa-brands fa-whatsapp"> Whatsapp</i></li>
-                        <li><i class="fa-brands fa-instagram">Instagram</i></li>
-                        <li><i class="fa-brands fa-linkedin">linkedin</i></li>
-                        <li><i class="fa-brands fa-twitter">twitter</i></li>
-                    </ul>
-                </div>
-                
-                <div class="column">
-
-              </div>
+                <form>
+                    <label for="fname">First Name:</label> <br>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+                    <label for="lname">Last Name</label> <br>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+                    <label for="email">Email</label> <br>
+                    <input type="text" id="email" name="mailbox" placeholder="Your Email.."><br>
+                    <label for="textarea">Fill in the form:</label> <br> <br>
+                    <textarea name="text" rows="4" cols="50">Add text here</textarea> <br> <br>
+                    <input type="submit" value="submit">
+                </form>
             </div>
-          </div>
+        </div>
+        <div class="column">
+            <ul>
+                <li><i class="fa-brands fa-facebook"> facebook</i></li>
+                <li><i class="fa-brands fa-whatsapp"> Whatsapp</i></li>
+                <li><i class="fa-brands fa-instagram">Instagram</i></li>
+                <li><i class="fa-brands fa-linkedin">linkedin</i></li>
+                <li><i class="fa-brands fa-twitter">twitter</i></li>
+            </ul>
+        </div>
     </section>
     <script src="script.js"></script>
   </body>
