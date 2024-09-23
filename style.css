@@ -2,7 +2,7 @@ body {
     background: rgb(212, 213, 214);
   }
 
-section #landing{
+section {
     background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
