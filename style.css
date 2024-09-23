@@ -24,3 +24,12 @@ justify-content: space-between;
     list-style: none;
     display: flex;
 }
+
+.nav-link{
+    text-decoration: none;
+
+}
+
+.nav-i{
+    margin-left: 20px;
+}
