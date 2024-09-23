@@ -26,6 +26,7 @@ html body {
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
     filter: blur(4px);
@@ -42,9 +43,11 @@ justify-content: space-between;
 
 }
 
-#navbar .nav-list{
+#nav-bar .nav-list{
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-link{
@@ -87,11 +90,73 @@ img {
 
 /*My Projects*/
 #projects-sec {
+    width: 100vw;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.911);
+    color: aliceblue;
     margin: 0;
     padding: 0;
-    height: 50vh;
-    width: 100vw;
-    background: gray;
-    color: black;
     float: left;
 }
+
+ h2 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 165, 0);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    display: table;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+        margin: 0 -5px;
+    }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+  }
+  
+  .card {
+    box-shadow: 0 5px 10px 0 rgba(243, 120, 5, 0.863); /* this adds the "card" effect */
+    padding: 70px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    display: table-cell;
+  }
+
+/*about*/
+#about {
+    width: 100vw;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.911);
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+/*contacts*/
+#contacts {
+    width: 100vw;
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.911);
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
